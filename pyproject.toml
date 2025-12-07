@@ -1,0 +1,21 @@
+[project]
+name = "customer-support-maf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "agent-framework==1.0.0b251114",
+    "fastmcp",
+    "openai",
+    "python-dotenv",
+    "httpx",
+    "aiohttp",
+    "pandas",
+    "uvloop",
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "streamlit",
+    "requests",
+]
