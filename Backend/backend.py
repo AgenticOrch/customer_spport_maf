@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# ============== Pydantic Models ==============
+# ============== Pydantic Models =============
 class QueryRequest(BaseModel):
     question: str
 
