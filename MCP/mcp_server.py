@@ -4,7 +4,7 @@ import glob
 import json
 import os
 
-DB_DIR = "/Users/rahul/Desktop/Gen AI/AgenticOrch/Content/customer_support_maf/Databases"
+DB_DIR = "/Users/rahul/Desktop/Gen AI/AgenticOrch/Content/customer_support_maf_2/Databases"
 
 app = FastMCP("mcp-sql1")
 
